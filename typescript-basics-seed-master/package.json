@@ -11,7 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/UltimateAngular/typescript-basics-seed.git"
   },
-  "keywords": ["typescript"],
+  "keywords": [
+    "typescript"
+  ],
   "devDependencies": {
     "awesome-typescript-loader": "3.4.1",
     "typescript": "2.6.2",
@@ -23,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/UltimateAngular/typescript-basics-seed/issues"
   },
-  "homepage": "https://github.com/UltimateAngular/typescript-basics-seed#readme"
+  "homepage": "https://github.com/UltimateAngular/typescript-basics-seed#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.172",
+    "lodash": "^4.17.21",
+    "tslib": "^2.3.0"
+  }
 }

@@ -408,6 +408,7 @@ contador2.incremetar();
 function PizzaProto(name:string){
     let pizzaName=name;
     let toppings:string[]= ['salami'];
+    
 }
 
 PizzaProto.prototype.addToping = function addTopping(topping:string){
@@ -497,3 +498,12 @@ class Coupon{
 console.log(Coupon.allowed);
 var my_cupon =Coupon.create(56.9);
 console.log(my_cupon);
+
+const elem =document.querySelector('click');
+
+function handleClick(this:HTMLAnchorElement,event:Event){
+    event.preventDefault();
+    console.log(this.href);
+}
+
+elem?.addEventListener('click',handleClick,false);
